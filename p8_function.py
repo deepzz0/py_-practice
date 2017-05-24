@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
+# 调用函数
 print(abs(-1))
 print(max(1, 2, 3, 4, 5))
 
@@ -15,9 +15,6 @@ print(bool(''))
 # 将变量指向函数，也可以调用
 a = abs
 print(a(-1))
-
-
-
 
 # 自定义函数
 def my_abs(x):
